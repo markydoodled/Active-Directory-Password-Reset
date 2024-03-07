@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="ActiveDirectoryPasswordReset.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ActiveDirectoryPasswordReset"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Username" VerticalAlignment="Top" FontSize="30"/>
+        <TextBox x:Name="txtUsername" x:FieldModifier="public" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="480" PlaceholderText="Enter Username..."/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,90,0,0" Text="New Password" VerticalAlignment="Top" FontSize="30"/>
+        <TextBox x:Name="txtNewPassword" x:FieldModifier="public" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="480" PlaceholderText="Enter New Password..."/>
+        <Button Content="Reset Password" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="480" Click="Reset_Button_Click"/>
+    </Grid>
+</Page>
