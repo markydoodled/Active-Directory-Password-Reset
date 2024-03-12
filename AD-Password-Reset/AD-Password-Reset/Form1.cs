@@ -22,9 +22,6 @@ namespace AD_Password_Reset
         }
         public static void InstallViaPowerShell(object newPasswordString, object usernameString)
         {
-
-            var ps1File = @"C:\Users\markhoward\GitHub\Active-Directory-Password-Reset\Active-Directory-Password-Reset\reset.ps1";
-
             var startInfo = new ProcessStartInfo()
             {
                 FileName = "powershell.exe",
@@ -32,7 +29,6 @@ namespace AD_Password_Reset
                 UseShellExecute = false
             };
             Process.Start(startInfo);
-
         }
     }
 }

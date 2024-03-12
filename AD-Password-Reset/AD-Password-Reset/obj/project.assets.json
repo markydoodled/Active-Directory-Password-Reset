@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\markhoward\\source\\repos\\AD-Password-Reset\\AD-Password-Reset\\AD-Password-Reset.csproj",
+      "projectUniqueName": "C:\\Users\\markhoward\\GitHub\\Active-Directory-Password-Reset\\AD-Password-Reset\\AD-Password-Reset\\AD-Password-Reset.csproj",
       "projectName": "AD-Password-Reset",
-      "projectPath": "C:\\Users\\markhoward\\source\\repos\\AD-Password-Reset\\AD-Password-Reset\\AD-Password-Reset.csproj",
+      "projectPath": "C:\\Users\\markhoward\\GitHub\\Active-Directory-Password-Reset\\AD-Password-Reset\\AD-Password-Reset\\AD-Password-Reset.csproj",
       "packagesPath": "C:\\Users\\markhoward\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\markhoward\\source\\repos\\AD-Password-Reset\\AD-Password-Reset\\obj\\",
+      "outputPath": "C:\\Users\\markhoward\\GitHub\\Active-Directory-Password-Reset\\AD-Password-Reset\\AD-Password-Reset\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,5 @@
+C:\Users\markhoward\GitHub\Active-Directory-Password-Reset\AD-Password-Reset\AD-Password-Reset\bin\Release\net8.0-windows\publish\AD-Password-Reset.exe
+C:\Users\markhoward\GitHub\Active-Directory-Password-Reset\AD-Password-Reset\AD-Password-Reset\bin\Release\net8.0-windows\publish\AD-Password-Reset.dll
+C:\Users\markhoward\GitHub\Active-Directory-Password-Reset\AD-Password-Reset\AD-Password-Reset\bin\Release\net8.0-windows\publish\AD-Password-Reset.deps.json
+C:\Users\markhoward\GitHub\Active-Directory-Password-Reset\AD-Password-Reset\AD-Password-Reset\bin\Release\net8.0-windows\publish\AD-Password-Reset.runtimeconfig.json
+C:\Users\markhoward\GitHub\Active-Directory-Password-Reset\AD-Password-Reset\AD-Password-Reset\bin\Release\net8.0-windows\publish\AD-Password-Reset.pdb
