@@ -51,6 +51,7 @@
             // 
             usernameBox.Location = new Point(12, 121);
             usernameBox.Name = "usernameBox";
+            usernameBox.PlaceholderText = "Enter Username...";
             usernameBox.Size = new Size(367, 23);
             usernameBox.TabIndex = 1;
             // 
@@ -68,6 +69,7 @@
             // 
             newPasswordBox.Location = new Point(12, 219);
             newPasswordBox.Name = "newPasswordBox";
+            newPasswordBox.PlaceholderText = "Enter New Password...";
             newPasswordBox.Size = new Size(367, 23);
             newPasswordBox.TabIndex = 3;
             // 

@@ -8,8 +8,25 @@ namespace AD_Password_Reset
         public Form1()
         {
             InitializeComponent();
-            //get-adusers and foreach loop to add all users to the combobox
-            usernameDrop.Items.Add("User1");
+            var startInfo = new ProcessStartInfo()
+            {
+                FileName = "powershell.exe",
+                Arguments = "Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName",
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                CreateNoWindow = true
+            };
+            Process process = new Process();
+            process.StartInfo = startInfo;
+            process.Start();
+            string output = process.StandardOutput.ReadToEnd();
+            process.WaitForExit();
+            process.Close();
+            string[] users = output.Split('\n');
+            foreach (string user in users)
+            {
+                usernameDrop.Items.Add(user);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -36,7 +53,7 @@ namespace AD_Password_Reset
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            usernameBox.Text = usernameDrop.SelectedItem.ToString();
         }
     }
 }
