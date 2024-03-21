@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kKNanwLiLL/dZ66CLJsdXQie7H1/sVlvzGdTtLW5Ro7YZYCCh4ImkDW6UDtkOtZ1fN+DUI+vxZ9j9T99MTqLIw==",
+  "dgSpecHash": "LOWjIdWLCgx8LxreQSn9/ZByaquX1D04pwRtfa/YFMRgCn6lTLGNjlgeKfa2gtienYnWaqIOgAMsGwuLHi7NFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\markhoward\\GitHub\\Active-Directory-Password-Reset\\AD-Password-Reset\\AD-Password-Reset\\AD-Password-Reset.csproj",
+  "projectFilePath": "C:\\Users\\mark.howard\\GitHub\\AD-Password-Reset\\AD-Password-Reset\\AD-Password-Reset\\AD-Password-Reset.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

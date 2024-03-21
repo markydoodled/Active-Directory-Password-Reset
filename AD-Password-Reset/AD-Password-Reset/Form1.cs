@@ -1,3 +1,4 @@
+using Microsoft.VisualBasic.ApplicationServices;
 using System.Diagnostics;
 
 namespace AD_Password_Reset
@@ -7,11 +8,13 @@ namespace AD_Password_Reset
         public Form1()
         {
             InitializeComponent();
+            //get-adusers and foreach loop to add all users to the combobox
+            usernameDrop.Items.Add("User1");
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,6 +32,11 @@ namespace AD_Password_Reset
                 UseShellExecute = false
             };
             Process.Start(startInfo);
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

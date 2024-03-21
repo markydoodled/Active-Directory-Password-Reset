@@ -34,6 +34,7 @@
             NewPassword = new Label();
             newPasswordBox = new TextBox();
             button1 = new Button();
+            usernameDrop = new ComboBox();
             SuspendLayout();
             // 
             // Username
@@ -48,7 +49,7 @@
             // 
             // usernameBox
             // 
-            usernameBox.Location = new Point(12, 73);
+            usernameBox.Location = new Point(12, 121);
             usernameBox.Name = "usernameBox";
             usernameBox.Size = new Size(367, 23);
             usernameBox.TabIndex = 1;
@@ -57,7 +58,7 @@
             // 
             NewPassword.AutoSize = true;
             NewPassword.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            NewPassword.Location = new Point(12, 124);
+            NewPassword.Location = new Point(12, 157);
             NewPassword.Name = "NewPassword";
             NewPassword.Size = new Size(204, 37);
             NewPassword.TabIndex = 2;
@@ -65,14 +66,14 @@
             // 
             // newPasswordBox
             // 
-            newPasswordBox.Location = new Point(12, 177);
+            newPasswordBox.Location = new Point(12, 219);
             newPasswordBox.Name = "newPasswordBox";
             newPasswordBox.Size = new Size(367, 23);
             newPasswordBox.TabIndex = 3;
             // 
             // button1
             // 
-            button1.Location = new Point(12, 247);
+            button1.Location = new Point(12, 274);
             button1.Name = "button1";
             button1.Size = new Size(367, 23);
             button1.TabIndex = 4;
@@ -80,12 +81,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // usernameDrop
+            // 
+            usernameDrop.FormattingEnabled = true;
+            usernameDrop.Location = new Point(12, 73);
+            usernameDrop.Name = "usernameDrop";
+            usernameDrop.Size = new Size(367, 23);
+            usernameDrop.TabIndex = 5;
+            usernameDrop.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             ClientSize = new Size(391, 450);
+            Controls.Add(usernameDrop);
             Controls.Add(button1);
             Controls.Add(newPasswordBox);
             Controls.Add(NewPassword);
@@ -108,5 +119,6 @@
         private Label NewPassword;
         private TextBox newPasswordBox;
         private Button button1;
+        private ComboBox usernameDrop;
     }
 }
