@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AD-Password-Reset")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74385ae599a6dff27989f5d246e4323a66563cd9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83ad06ee577711b974c284c9b47a0696a724ef2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AD-Password-Reset")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AD-Password-Reset")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
