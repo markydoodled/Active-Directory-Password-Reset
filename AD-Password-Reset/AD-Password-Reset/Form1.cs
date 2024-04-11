@@ -11,7 +11,8 @@ namespace AD_Password_Reset
             var startInfo = new ProcessStartInfo()
             {
                 FileName = "powershell.exe",
-                Arguments = "Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName",
+                //Arguments = "Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName",
+                Arguments = "Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName | Sort-Object",
                 UseShellExecute = false,
                 RedirectStandardOutput = true,
                 CreateNoWindow = true
